@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "ctest.h": "c",
+    "typeinfo": "c",
+    "*.a": "c"
+  }
+}
