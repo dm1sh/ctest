@@ -18,9 +18,11 @@ run_tests();
 
 You can use the following functions or just pass boolean value as first argument of `test()`
 
-* `int is_equal(void *res, void *correct);`
-* `int is_true(void *res);`
-* `int is_false(void *res);`
+- `int is_equal(void *res, void *correct)`
+- `int is_true(void *res)`
+- `int is_false(void *res)`
+- `int is_equal_array(void **res, int size, void **correct)`
+- `int not(void *res)`
 
 # Installation:
 
@@ -35,5 +37,5 @@ sudo make install CT_VERSION=1
 It is also required for update
 
 ```bash
-sudo make uninstall  CT_VERSION=1
+sudo make uninstall CT_VERSION=1
 ```
